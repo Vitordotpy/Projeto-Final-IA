@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1e59b2;
+  padding: 1.5rem 4rem;
+}
+
+.name {
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.buttonHeader {
+  background-color: transparent;
+  font-size: 17px;
+}
+
+.header h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

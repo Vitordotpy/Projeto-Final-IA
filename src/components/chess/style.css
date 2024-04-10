@@ -1,0 +1,78 @@
+.chessboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  background-color: #f0d9b5;
+}
+
+.dark {
+  background-color: #b58863;
+}
+
+.piece {
+  font-size: 30px;
+}
+
+img {
+  width: 45px;
+}
+
+.containerXadrez .flex-buttons {
+  display: flex;
+  width: 310px;
+  gap: 10px;
+}
+
+.containerXadrez {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 100px 400px;
+}
+.active {
+  border: 2px solid #000;
+}
+
+.containerXadrez h2 {
+  margin-bottom: 90px;
+  font-size: 50px;
+}
+
+.containerXadrez h3 {
+  margin-bottom: 10px;
+}
+
+.xadrez {
+  color: #000;
+}
+
+.button {
+  margin: 16px;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: linear-gradient(to right, #f0d9b5, #b58863);
+  color: #000;
+}

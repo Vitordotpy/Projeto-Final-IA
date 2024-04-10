@@ -1,0 +1,51 @@
+.field {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  text-align: center;
+  color: #1e59b2;
+  border: 1px solid #afacac;
+}
+
+.field[disabled] {
+  color: #222; /* Altere a cor do texto conforme necessário */
+}
+
+.red {
+  color: red;
+}
+.row:nth-child(3n) .field {
+  border-bottom: 1px solid #222;
+}
+
+.row:nth-child(3n + 1) .field {
+  border-top: 1px solid #222;
+}
+
+.row:nth-child(1) .field {
+  border-top: 2px solid #222;
+}
+
+.row .field:nth-child(3n) {
+  border-right: 1px solid #222;
+}
+
+.row .field:nth-child(3n + 1) {
+  border-left: 1px solid #222;
+}
+
+.row .field:nth-child(1) {
+  border-left: 2px solid #222;
+}
+
+.solved {
+  color: rgb(11, 155, 11);
+}
+
+@media screen and (max-width: 550px) {
+  .field {
+    width: 9.5vw;
+    height: 9.5vw;
+    font-size: 5vw;
+  }
+}
